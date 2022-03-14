@@ -1,0 +1,46 @@
+.header {
+    padding: 100px;
+    text-align: center;
+    background-image: url("https://lucknowrecreation.com/wp-content/uploads/2018/04/Monthly-Website-Header-background-e1522931579825.jpg");
+    color: white;
+  }
+#homepage{
+    padding: 70px 70px 0px 70px;
+
+}
+#action-button {
+    background: #cae962;
+    border-radius: 0 0 30px 30px;
+    text-align: center;
+    width: minmax(250px,700px);
+}
+#first-half{
+    background-image: url("zoro-bg.jpg");
+    color: white;
+}
+
+blockquote{
+    font-size: 24px;
+
+}
+#quote{
+    text-align:center;
+    padding: 100px 100px 100px 100px;
+}
+input[type=text]{
+
+    background-color: lightblue;
+    width:50%;
+}
+.table_anime{
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+
+}
+#trivia-page{
+    padding:20px;
+}
+.section{
+    padding: 10px;
+}

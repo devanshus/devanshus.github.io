@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <link rel="icon" type="image/x-icon" href="d-alphabet.svg">
+        <title>Devanshu | Anime Trivia</title>
+        <script src="trivia.js"></script>
+
+    </head>
+    <body>
+
+    <!--Including Navigation Bar everywhere-->
+    <div id="nav-placeholder"></div>
+    <script>
+    $(function(){
+    $("#nav-placeholder").load("nav.html");
+    });
+    </script>
+
+
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container-lg" id="trivia-page">
+        <h2>Basic 5 Questions</h2>
+            <div class="section">
+                <hr>
+                <h4>What is the name of the First Hokage?</h4>
+
+                <button class="incorrect btn btn-outline-primary">Minato Namikaze</button>
+                <button class="incorrect btn btn-outline-primary">Tobirama Senju</button>
+                <button class="incorrect btn btn-outline-primary">Naruto Uzumaki</button>
+                <button class="correct btn btn-outline-primary">Hashirama Senju</button>
+
+            </div>
+            <div class="section">
+                <hr>
+                <h4>What is the name of Luffy's Father?</h4>
+
+                <button class="incorrect btn btn-outline-primary">Monkey D. Garp</button>
+                <button class="incorrect btn btn-outline-primary">Zoro</button>
+                <button class="correct btn btn-outline-primary">Monkey D. Dragon</button>
+                <button class="incorrect btn btn-outline-primary">Monkey D. Luffy</button>
+
+            </div>
+            <div class="section">
+                <hr>
+                <h4>Lelouch was originally a _________</h4>
+
+                <button class="correct btn btn-outline-primary">Britannian Prince</button>
+                <button class="incorrect btn btn-outline-primary">Japanese</button>
+                <button class="incorrect btn btn-outline-primary">United States Citizen</button>
+                <button class="incorrect btn btn-outline-primary">Zero</button>
+
+            </div>
+            <div class="section">
+                <hr>
+                <h4>What happens when a human loses their Death Note?</h4>
+
+                <button class="incorrect btn btn-outline-primary">Nothing</button>
+                <button class="correct btn btn-outline-primary">They Lose All Memory of It</button>
+                <button class="incorrect btn btn-outline-primary">Their Victims Come Back to Life</button>
+                <button class="incorrect btn btn-outline-primary">They Die</button>
+
+            </div>
+            <div class="section">
+                <hr>
+                <h4>What is the name of Gon's Best Friend in Hunter X Hunter?</h4>
+                <input type="text">
+                <button class = "btn btn-outline-primary" id="check">Check Answer</button>
+
+                <p id="feedback3"></p>
+
+            </div>
+        </div>
+    <!--footer-->
+    <div id="footer-placeholder"></div>
+    <script>
+    $(function(){
+    $("#footer-placeholder").load("footer.html");
+    });
+    </script>
+    </body>
+</html>
